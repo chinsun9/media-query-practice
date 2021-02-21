@@ -1,0 +1,16 @@
+body {
+  color: red;
+}
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    color: blue;
+  }
+}
