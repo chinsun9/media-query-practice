@@ -1,6 +1,7 @@
 body {
   color: red;
 }
+
 .title {
   font-size: 6rem;
 }
@@ -9,8 +10,33 @@ body {
   font-size: 4rem;
 }
 
+/* 창넓이가 500 이하가 되면 css 변경 */
 @media (max-width: 500px) {
   body {
     color: blue;
+  }
+}
+
+/* 프린트할 때 색 바뀜 */
+/* @media print {
+  body {
+    color: blue;
+  }
+} */
+
+/* 선언 순서가 중요하다 */
+/* body {
+  color: red;
+} */
+
+@media (orientation: landscape) {
+  .title {
+    color: green;
+  }
+}
+
+@media (orientation: portrait) {
+  .subtitle {
+    color: cyan;
   }
 }
