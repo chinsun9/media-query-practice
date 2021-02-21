@@ -29,7 +29,7 @@ body {
   color: red;
 } */
 
-@media (orientation: landscape) and (max-width: 500px) {
+@media (orientation: landscape), (max-width: 500px) {
   .title {
     color: green;
   }
